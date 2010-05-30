@@ -1,0 +1,84 @@
+/* SOCIAL */            
+#stalk a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 17px;
+}
+
+#stalk a > span {
+    font-weight: bold;
+}
+
+	/* Delicious */
+	#stalk a.delicious > span {
+	    color: #3274D1;
+	}
+	
+	#stalk a.delicious > span > span {
+	    color: #8E8E8E;
+	}
+	
+	#stalk a.delicious > span > span > span {
+	    color: #000000;
+	}
+	
+	/* Twitter */
+	#stalk a.twitter > span {
+	    color: #38CCFF;
+	    font-family: monospace;
+	}
+	
+	/* Last.fm */
+	#stalk a.lastfm > span {
+	    font-family: sans-serif;
+	    color: #DC1505
+	}
+	
+	/* Github */
+	#stalk a.github > span {
+		font-family: sans-serif;
+		color: #000000;
+	}
+	
+	/* LinkedIn */
+	#stalk a.linkedin > span {
+		font-family: sans-serif;
+		color: #000000;
+	}
+	
+	#stalk a.linkedin > span > span {
+		border: 1px solid #3399cc;
+		color: #FFFFFF;
+		background-color: #3399cc;
+	}
+	
+	
+	/* Tumblr */
+	#stalk a.tumblr > span {
+		color: #35516D;
+	}
+	
+	/* Facebook */
+	#stalk a.facebook > span {
+		font-family: sans-serif;
+		color: #3B5998;
+	}
+	
+	/* Livejournal */
+	#stalk a.livejournal > span {
+		color: #1E3368;
+	}
+	
+	#stalk a.livejournal > span > span {
+		color: #689CC4;
+	}
+	
+	/* WorkingWithRails*/
+	#stalk a.workingwithrails > span {
+		font-family: sans-serif;
+		color: #EE9D0C;
+	}
+	
+	#stalk a.workingwithrails > span > span {
+		color: #A10000;
+	}
