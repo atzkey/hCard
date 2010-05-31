@@ -1,4 +1,4 @@
-.fn .first {
+.n .given-name {
     font-size: 125px;
     letter-spacing: -2px;
     top: 210px;
@@ -9,7 +9,7 @@
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-.fn .last {
+.n .family-name {
     font-size: 53px;
     letter-spacing: 0px;
     top: 305px;
@@ -28,6 +28,10 @@
 }
 
 .adr {
+	display: none;
+}
+
+.tel .type {
 	display: none;
 }
 
