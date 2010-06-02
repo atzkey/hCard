@@ -31,13 +31,15 @@
     filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
 	position: absolute;
 	left: 80px;
-	top: 240px;
 }
 
 .bigname {
 	margin: 0;
 	padding: 0;
 	font-family: "Droid Serif";
+	margin-left: -500px;
+	padding-left: 500px;
+	background-color: #000000;
 }
 .n .given-name {
 	font-size: 84pt;
@@ -50,7 +52,7 @@
 
 .bigname a {
 	text-decoration: none;
-	color: #000000;
+	color: #FFFFFF;
 }
 
 .adr {
@@ -61,12 +63,17 @@
 	display: none;
 }
 
+.tel {
+	white-space: nowrap;
+}
+
 #bio {
 	width: 285px;
 	font-family: "Droid Sans", sans;
 	font-size: 12pt;
 	padding-left: 10px;
 	color: #404040;
+	float: left;
 }
 
 #bio p {
@@ -79,14 +86,16 @@
 
 #bio a {
 	color: #000000;
+	text-decoration: none;
 }
+
+
 
 #stalk {
 	font-family: "Droid Serif";
-	position: absolute;
-	left: 310px;
-	top: -32pt;
-	line-height: 1.3em;
+	float: left;
+	line-height: 1.25em;
+	margin-left: 3em;
 }
 
 #stalk li {

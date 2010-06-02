@@ -2,7 +2,7 @@
 #stalk a {
     text-decoration: none;
     color: #DDDDDD;
-    font-size: 14pt;
+    font-size: 12pt;
 	font-family: "Droid Serif", serif;
 }
 
@@ -27,7 +27,6 @@
 	#stalk a.twitter > span {
 	    color: #38CCFF;
 	    font-family: "Droid Serif Mono", monospace;
-		letter-spacing: -2px;
 	}
 	
 	/* Last.fm */
