@@ -1,8 +1,9 @@
 /* SOCIAL */            
 #stalk a {
     text-decoration: none;
-    color: #EEEEEE;
-    font-size: 17px;
+    color: #DDDDDD;
+    font-size: 14pt;
+	font-family: "Droid Serif", serif;
 }
 
 #stalk a > span {
@@ -25,24 +26,25 @@
 	/* Twitter */
 	#stalk a.twitter > span {
 	    color: #38CCFF;
-	    font-family: monospace;
+	    font-family: "Droid Serif Mono", monospace;
+		letter-spacing: -2px;
 	}
 	
 	/* Last.fm */
 	#stalk a.lastfm > span {
-	    font-family: sans-serif;
+	    font-family: "Droid Sans";
 	    color: #DC1505
 	}
 	
 	/* Github */
 	#stalk a.github > span {
-		font-family: sans-serif;
+		font-family: "Droid Sans", sans-serif;
 		color: #000000;
 	}
 	
 	/* LinkedIn */
 	#stalk a.linkedin > span {
-		font-family: sans-serif;
+		font-family: "Droid Sans", sans-serif;
 		color: #000000;
 	}
 	
@@ -60,7 +62,7 @@
 	
 	/* Facebook */
 	#stalk a.facebook > span {
-		font-family: sans-serif;
+		font-family: "Droid Sans", sans-serif;
 		color: #3B5998;
 	}
 	
@@ -75,7 +77,7 @@
 	
 	/* WorkingWithRails*/
 	#stalk a.workingwithrails > span {
-		font-family: sans-serif;
+		font-family: "Droid Sans",sans-serif;
 		color: #EE9D0C;
 	}
 	
