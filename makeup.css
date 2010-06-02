@@ -87,8 +87,12 @@
 #bio a {
 	color: #000000;
 	text-decoration: none;
+	text-shadow: 0 0 2px #404040;
 }
 
+#bio a:hover {
+	text-shadow: 0 0 4px #000000;
+}
 
 
 #stalk {
