@@ -30,7 +30,8 @@
     -moz-transform: rotate(-30deg);
     filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
 	position: absolute;
-	left: 80px;
+	left: 70px;
+	top: -30px;
 }
 
 .bigname {
